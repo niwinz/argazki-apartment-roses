@@ -15,11 +15,9 @@ import * as p from "@plasmicapp/react-web";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts,
-  ensureGlobalVariants
+  deriveRenderOpts
 } from "@plasmicapp/react-web";
 import CopyableLink from "../../CopyableLink"; // plasmic-import: YLm9tZK9aFCAD/component
-import { useScreenVariants as useScreenVariantsinFmIpItQIc } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: INFm_ipItQ-IC/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_argazki_a_artment_landing.module.css"; // plasmic-import: 2Q8io4YT2aFb8somxWhYXQ/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: 6wPn25ZNUt3CI/css
@@ -31,10 +29,6 @@ export const PlasmicHomepage__ArgProps = new Array();
 function PlasmicHomepage__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
   const $props = props.args;
-  const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariantsinFmIpItQIc()
-  });
-
   return (
     <React.Fragment>
       <Head>
@@ -85,45 +79,37 @@ function PlasmicHomepage__RenderFunc(props) {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__wg1Hp)}>
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox___70Vyw)}
-            >
-              <div className={classNames(projectcss.all, sty.freeBox__t3CUt)}>
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox___70Vyw)}>
+              <div className={classNames(projectcss.all, sty.freeBox___8TrMq)}>
                 <div
-                  className={classNames(projectcss.all, sty.freeBox___8TrMq)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__jatEa
+                  )}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__lcgvQ
-                    )}
-                  >
-                    {"Bienvenidos"}
-                  </div>
+                  {"Welcome"}
+                </div>
 
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__jatEa
-                    )}
-                  >
-                    {"Welcome"}
-                  </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__lcgvQ
+                  )}
+                >
+                  {"Bienvenido"}
+                </div>
 
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__viwbp
-                    )}
-                  >
-                    {"Bienvenue"}
-                  </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__viwbp
+                  )}
+                >
+                  {"Bienvenue"}
                 </div>
               </div>
 
@@ -135,58 +121,53 @@ function PlasmicHomepage__RenderFunc(props) {
                     sty.text__iOe8S
                   )}
                 >
-                  {
-                    "Para reservas o mas informacion:\nFor reservations and more information:\nPour réservations et plus d'informations :"
-                  }
+                  {"For reservations and more information:\n"}
                 </div>
 
-                <p.PlasmicLink
-                  data-plasmic-name={"link"}
-                  data-plasmic-override={overrides.link}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link
-                  )}
-                  component={Link}
-                  href={"https://www.plasmic.app/"}
-                  platform={"nextjs"}
-                >
-                  {"Airbnb"}
-                </p.PlasmicLink>
+                <div className={classNames(projectcss.all, sty.freeBox__uShz)}>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__mz6G0
+                    )}
+                    component={Link}
+                    href={"https://www.plasmic.app/"}
+                    platform={"nextjs"}
+                  >
+                    {"airbnb"}
+                  </p.PlasmicLink>
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___1Qbyt
-                  )}
-                >
-                  {"o"}
-                </div>
-
-                <CopyableLink
-                  data-plasmic-name={"copyableLink"}
-                  data-plasmic-override={overrides.copyableLink}
-                  className={classNames("__wab_instance", sty.copyableLink)}
-                >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text___36Oo
+                      sty.text___1Qbyt
                     )}
                   >
-                    {"hello@argazki.art"}
+                    {"/"}
                   </div>
-                </CopyableLink>
+
+                  <CopyableLink
+                    data-plasmic-name={"copyableLink"}
+                    data-plasmic-override={overrides.copyableLink}
+                    className={classNames("__wab_instance", sty.copyableLink)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___36Oo
+                      )}
+                    >
+                      {"email"}
+                    </div>
+                  </CopyableLink>
+                </div>
               </div>
-            </p.Stack>
-
-            <div className={classNames(projectcss.all, sty.freeBox__alq96)} />
-          </div>
-
+            </div>
+          ) : null}
           {true ? (
             <div className={classNames(projectcss.all, sty.freeBox___1Zoh)}>
               <p.PlasmicImg
@@ -262,6 +243,22 @@ function PlasmicHomepage__RenderFunc(props) {
               </div>
             </div>
           ) : null}
+
+          <div className={classNames(projectcss.all, sty.freeBox__hLjJf)}>
+            <p.PlasmicLink
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                projectcss.__wab_text,
+                sty.link___50XV
+              )}
+              component={Link}
+              href={"https://argazki.art"}
+              platform={"nextjs"}
+            >
+              {"Interested in art? Visit: https://argazki.art"}
+            </p.PlasmicLink>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -269,8 +266,7 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "link", "copyableLink", "img"],
-  link: ["link"],
+  root: ["root", "copyableLink", "img"],
   copyableLink: ["copyableLink"],
   img: ["img"]
 };
@@ -304,7 +300,6 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    link: makeNodeComponent("link"),
     copyableLink: makeNodeComponent("copyableLink"),
     img: makeNodeComponent("img"),
     // Metadata about props expected for PlasmicHomepage

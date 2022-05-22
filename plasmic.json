@@ -24,7 +24,7 @@
     {
       "projectId": "2Q8io4YT2aFb8somxWhYXQ",
       "projectApiToken": "4LAMWtFcthpukU8I6IzaESnwhLxWJ2ISi1d3Hu5J5bCTcy1psLPrUJ8TDwX1w1SVAvYeBNqLKsv8d9WtrYw",
-      "projectName": "Argazki A[artment Landing",
+      "projectName": "Argazki Apartment Landing",
       "version": "latest",
       "cssFilePath": "plasmic/argazki_a_artment_landing/plasmic_argazki_a_artment_landing.module.css",
       "components": [
@@ -85,14 +85,7 @@
     }
   ],
   "globalVariants": {
-    "variantGroups": [
-      {
-        "id": "INFm_ipItQ-IC",
-        "name": "Screen",
-        "projectId": "2Q8io4YT2aFb8somxWhYXQ",
-        "contextFilePath": "plasmic/argazki_a_artment_landing/PlasmicGlobalVariant__Screen.jsx"
-      }
-    ]
+    "variantGroups": []
   },
   "wrapPagesWithGlobalContexts": true,
   "nextjsConfig": {
