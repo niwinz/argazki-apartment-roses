@@ -229,18 +229,18 @@
   background: rgba(68, 192, 255, 0.2);
   flex-shrink: 0;
 }
-.freeBox__ejXoh {
+.freeBox___1Zoh {
   display: flex;
   position: relative;
-  flex-direction: row;
-  align-items: stretch;
+  flex-direction: column;
+  align-items: center;
   justify-content: flex-start;
   width: 100%;
   height: auto;
-  max-width: 100%;
-  margin-top: 61px;
+  max-width: 980px;
+  align-self: auto;
   min-width: 0;
-  padding: 8px 8px 80px;
+  padding: 8px;
 }
 .img {
   object-fit: cover;

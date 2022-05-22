@@ -188,7 +188,7 @@ function PlasmicHomepage__RenderFunc(props) {
           </div>
 
           {true ? (
-            <div className={classNames(projectcss.all, sty.freeBox__ejXoh)}>
+            <div className={classNames(projectcss.all, sty.freeBox___1Zoh)}>
               <p.PlasmicImg
                 data-plasmic-name={"img"}
                 data-plasmic-override={overrides.img}
