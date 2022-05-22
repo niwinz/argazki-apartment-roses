@@ -1,0 +1,103 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "2Q8io4YT2aFb8somxWhYXQ",
+      "projectApiToken": "4LAMWtFcthpukU8I6IzaESnwhLxWJ2ISi1d3Hu5J5bCTcy1psLPrUJ8TDwX1w1SVAvYeBNqLKsv8d9WtrYw",
+      "projectName": "Argazki A[artment Landing",
+      "version": "latest",
+      "cssFilePath": "plasmic/argazki_a_artment_landing/plasmic_argazki_a_artment_landing.module.css",
+      "components": [
+        {
+          "id": "6wPn25ZNUt3CI",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "2Q8io4YT2aFb8somxWhYXQ",
+          "renderModuleFilePath": "plasmic/argazki_a_artment_landing/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/argazki_a_artment_landing/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "YLm9tZK9aFCAD",
+          "name": "CopyableLink",
+          "type": "managed",
+          "projectId": "2Q8io4YT2aFb8somxWhYXQ",
+          "renderModuleFilePath": "plasmic/argazki_a_artment_landing/PlasmicCopyableLink.jsx",
+          "importSpec": {
+            "modulePath": "CopyableLink.jsx"
+          },
+          "cssFilePath": "plasmic/argazki_a_artment_landing/PlasmicCopyableLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "fWiAlcoJAimg8",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/argazki_a_artment_landing/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "Xl8XvLp0suKzh",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/argazki_a_artment_landing/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "cVMBIX4VDYJko",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/argazki_a_artment_landing/icons/PlasmicIcon__Icon3.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "sQLihVrZn",
+          "name": "apartment-thumbnails.jpg",
+          "filePath": "../public/plasmic/argazki_a_artment_landing/images/apartmentThumbnailsjpg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "INFm_ipItQ-IC",
+        "name": "Screen",
+        "projectId": "2Q8io4YT2aFb8somxWhYXQ",
+        "contextFilePath": "plasmic/argazki_a_artment_landing/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.178",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
+}
