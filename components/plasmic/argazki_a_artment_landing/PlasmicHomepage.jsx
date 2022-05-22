@@ -80,92 +80,107 @@ function PlasmicHomepage__RenderFunc(props) {
           )}
         >
           {true ? (
-            <div className={classNames(projectcss.all, sty.freeBox___70Vyw)}>
-              <div className={classNames(projectcss.all, sty.freeBox___8TrMq)}>
+            <div className={classNames(projectcss.all, sty.freeBox__fjlOm)}>
+              {true ? (
                 <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__jatEa
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___70Vyw)}
                 >
-                  {"Welcome"}
-                </div>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__lcgvQ
-                  )}
-                >
-                  {"Bienvenido"}
-                </div>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__viwbp
-                  )}
-                >
-                  {"Bienvenue"}
-                </div>
-              </div>
-
-              <div className={classNames(projectcss.all, sty.freeBox__ltVFf)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__iOe8S
-                  )}
-                >
-                  {"For reservations and more information:\n"}
-                </div>
-
-                <div className={classNames(projectcss.all, sty.freeBox__uShz)}>
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__mz6G0
-                    )}
-                    component={Link}
-                    href={"https://www.plasmic.app/"}
-                    platform={"nextjs"}
-                  >
-                    {"airbnb"}
-                  </p.PlasmicLink>
-
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___1Qbyt
-                    )}
-                  >
-                    {"/"}
-                  </div>
-
-                  <CopyableLink
-                    data-plasmic-name={"copyableLink"}
-                    data-plasmic-override={overrides.copyableLink}
-                    className={classNames("__wab_instance", sty.copyableLink)}
+                    className={classNames(projectcss.all, sty.freeBox___8TrMq)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___36Oo
+                        sty.text__jatEa
                       )}
                     >
-                      {"email"}
+                      {"Welcome"}
                     </div>
-                  </CopyableLink>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__lcgvQ
+                      )}
+                    >
+                      {"Bienvenido"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__viwbp
+                      )}
+                    >
+                      {"Bienvenue"}
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__ltVFf)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__iOe8S
+                      )}
+                    >
+                      {"For reservations and more information:\n"}
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__uShz)}
+                    >
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__mz6G0
+                        )}
+                        component={Link}
+                        href={"https://www.plasmic.app/"}
+                        platform={"nextjs"}
+                      >
+                        {"airbnb"}
+                      </p.PlasmicLink>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___1Qbyt
+                        )}
+                      >
+                        {"/"}
+                      </div>
+
+                      <CopyableLink
+                        data-plasmic-name={"copyableLink"}
+                        data-plasmic-override={overrides.copyableLink}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.copyableLink
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___36Oo
+                          )}
+                        >
+                          {"email"}
+                        </div>
+                      </CopyableLink>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              ) : null}
             </div>
           ) : null}
           {true ? (
@@ -243,22 +258,25 @@ function PlasmicHomepage__RenderFunc(props) {
               </div>
             </div>
           ) : null}
-
-          <div className={classNames(projectcss.all, sty.freeBox__hLjJf)}>
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link___50XV
-              )}
-              component={Link}
-              href={"https://argazki.art"}
-              platform={"nextjs"}
-            >
-              {"Interested in art? Visit: https://argazki.art"}
-            </p.PlasmicLink>
-          </div>
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox__kNhPb)}>
+              <div className={classNames(projectcss.all, sty.freeBox__hLjJf)}>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.link___50XV
+                  )}
+                  component={Link}
+                  href={"https://argazki.art"}
+                  platform={"nextjs"}
+                >
+                  {"Interested in art? Visit: https://argazki.art"}
+                </p.PlasmicLink>
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
     </React.Fragment>
