@@ -151,7 +151,7 @@ function PlasmicHomepage__RenderFunc(props) {
                         sty.link___0Dw2M
                       )}
                       component={Link}
-                      href={"https://www.plasmic.app/"}
+                      href={"mailto:hello@argazki.art"}
                       platform={"nextjs"}
                     >
                       {"email"}
