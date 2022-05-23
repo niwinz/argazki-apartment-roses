@@ -15,129 +15,126 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   height: auto;
   max-width: 980px;
-  align-self: auto;
+  align-self: center;
   min-width: 0;
   padding: 8px;
-}
-.freeBox___70Vyw {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: space-evenly;
-  width: 100%;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  min-width: 0;
-}
-.freeBox___8TrMq {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
 }
 .text__jatEa {
   position: relative;
   width: 100%;
   height: auto;
   max-width: 480px;
-  font-size: 50px;
+  font-size: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montez";
   padding-left: 0px;
   text-align: center;
+  align-self: center;
   min-width: 0;
 }
-.text__lcgvQ {
-  font-size: 50px;
-  font-weight: 400;
-  color: #616161;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 1px;
-  text-align: center;
-}
-.text__viwbp {
+.text___3JGIt {
   position: relative;
   width: 100%;
   height: auto;
   max-width: 800px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  padding-left: 0px;
   text-align: center;
+  font-family: "Montez";
+  font-size: 40px;
   min-width: 0;
 }
-.freeBox__ltVFf {
+.freeBox__tsCqi {
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: auto;
-  max-width: 100%;
-  padding: 8px;
-}
-.text__iOe8S {
-  position: relative;
+  justify-content: flex-start;
   width: 100%;
   height: auto;
-  max-width: 800px;
-  text-align: center;
-  font-size: 24px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  padding-bottom: 0px;
-  color: #616161;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 0px;
+  max-width: 100%;
+  margin-top: 25px;
+  border-top-width: 2px;
+  border-right-width: 1px;
+  border-bottom-width: 2px;
+  border-left-width: 1px;
   min-width: 0;
+  padding: 16px 8px;
+  border-style: dotted;
+  border-color: #dfdfdf;
 }
-.freeBox__uShz {
+.freeBox__ontOj {
   display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
-  justify-content: flex-start;
-  width: 100%;
+  justify-content: center;
   height: auto;
-  max-width: 240px;
-  align-self: center;
-  min-width: 0;
+  max-width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 8px;
 }
-.link__mz6G0 {
-  position: relative;
-  font-size: 30px;
-  font-weight: 600;
-  padding-top: 0px;
-  color: #000000;
-}
-.text___1Qbyt {
-  position: relative;
-  width: 100%;
+.text__uHqBc {
   height: auto;
   max-width: 800px;
-  margin-bottom: 0px;
   text-align: center;
-  font-size: 30px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  align-self: center;
-  min-width: 0;
 }
-.copyableLink:global(.__wab_instance) {
+.freeBox__whoqx {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
   max-width: 100%;
+  width: 146px;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+.link___71938 {
   position: relative;
 }
-.text___36Oo {
-  color: #000000;
-  font-size: 30px;
-  font-weight: 600;
+.text___4M0Od {
+  position: relative;
+  height: auto;
+  max-width: 800px;
+}
+.freeBox__bNDy {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.freeBox__jZ9Q {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 8px;
+}
+.text__znuna {
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+}
+.text__rwLw2 {
+  position: relative;
+  height: auto;
+  max-width: 800px;
 }
 .freeBox___1Zoh {
   display: flex;
